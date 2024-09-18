@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  width: 1000px;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.card-body {
+  border: 1px solid black;
+  width: 300px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body p,
+.card-body h1 {
+  margin: 8px;
+}
