@@ -1,9 +1,5 @@
-.main_container {
-  background-color: black;
-}
-
 .section1 {
-  background-color: gray;
+  background-color: darkgray;
   display: flex;
   flex-wrap: wrap;
 }
@@ -14,22 +10,85 @@
 }
 
 .section2 {
-  background-color: gray;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
 }
 
 .section3 {
-  background-color: gray;
+  background-color: darkgray;
 }
 
 .profile_picture {
   width: 100px;
   height: 100px;
+  margin-top: 28px;
+  margin-left: 28px;
+  @media (max-width: 650px) {
+    display: none;
+  }
+}
+
+.profile_heading {
+  color: white;
+}
+
+.profile_description {
+  color: blue;
 }
 
 .container {
   display: inline;
+  margin-left: 28px;
+  margin-top: 12px;
 }
 
 .basic_information {
   margin-left: auto;
+  margin-right: 40px;
+}
+
+#hr {
+  border: 1px solid black;
+  width: 1200px;
+}
+
+.bottom {
+  display: flex;
+  z-index: 1;
+
+  @media (max-width: 650px) {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.colored {
+  background-color: violet;
+  width: 90%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+}
+
+.non-colored {
+  background-color: black;
+  width: 10%;
+  height: 20px;
+}
+
+.percentage {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: end;
+  background-color: blueviolet;
+  margin: 0;
 }
