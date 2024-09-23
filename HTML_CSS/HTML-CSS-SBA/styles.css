@@ -1,3 +1,7 @@
+body {
+  /* background-color: #11001c; */
+}
+
 #custom-container {
   /* border: 1px solid red; */
 }
@@ -5,4 +9,18 @@
 #custom-id {
   margin-left: auto;
   /* border: 1px solid green; */
+}
+
+#custom-container1 {
+  height: 100%;
+}
+
+.box1 {
+  /* border: 1px solid red; */
+  /* background-color: #290025; */
+}
+
+.box2 {
+  /* border: 1px solid blue; */
+  /* background-color: #35012c; */
 }
