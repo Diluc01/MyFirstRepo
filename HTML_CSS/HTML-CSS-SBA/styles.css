@@ -24,3 +24,13 @@ body {
   /* border: 1px solid blue; */
   /* background-color: #35012c; */
 }
+
+#outer-container {
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+}
+
+#custom-container2 {
+  /* border: 1px solid blue; */
+  /* height: 100vh; */
+}
