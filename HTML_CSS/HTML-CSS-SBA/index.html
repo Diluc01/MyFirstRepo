@@ -11,8 +11,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      #change-height {
+        height: 590px;
+      }
+    </style>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark" style="font-family: 'Times New Roman', Times, serif">
     <!-- header beginning -->
     <header>
       <nav
@@ -25,12 +30,15 @@
         >
           <ul class="navbar-nav row d-flex w-100" id="custom-container">
             <li class="nav-item col-1">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link active home-button"
+                aria-current="page"
+                href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item col-1">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link first-letter" href="about.html">About Us</a>
             </li>
             <li class="nav-item col-1">
               <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -213,7 +221,7 @@
         class="w-100 vh-100 row d-flex justify-content-evenly align-items-center"
         id="custom-container2"
       >
-        <div class="card col-3" style="width: 18rem">
+        <div class="card col-3 make-bigger" style="width: 18rem">
           <div
             style="
               width: 100%;
@@ -247,7 +255,11 @@
           </div>
         </div>
 
-        <div class="card col-3" style="width: 18rem; height: 590px">
+        <div
+          class="card col-3 make-bigger"
+          style="width: 18rem"
+          id="change-height"
+        >
           <div
             style="
               width: 100%;
@@ -283,7 +295,7 @@
           </div>
         </div>
 
-        <div class="card col-3" style="width: 18rem">
+        <div class="card col-3 make-bigger" style="width: 18rem">
           <div
             style="
               width: 100%;
