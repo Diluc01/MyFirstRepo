@@ -30,3 +30,7 @@
   /* border: 1px solid blue; */
   /* height: 100vh; */
 }
+
+#custom-table {
+  height: 500px;
+}
