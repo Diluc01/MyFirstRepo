@@ -27,10 +27,14 @@
 }
 
 #custom-container2 {
-  /* border: 1px solid blue; */
+  /* border: 1px solid red; */
   /* height: 100vh; */
 }
 
 #custom-table {
   height: 500px;
+}
+
+#custom-id2 {
+  /* border: 1px solid blue; */
 }
