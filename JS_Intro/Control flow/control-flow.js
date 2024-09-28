@@ -30,3 +30,19 @@ if (week3Results > area * 0.8) {
 } else {
   console.log("Planted");
 }
+
+// C = PI * radius
+// C = 3.1415 * 102400 = 321,689.6
+// R = C / PI
+// R = 321,689.6 / 3.1415 * 5 **2 = 2,559,924.49
+
+const plants2 = 100;
+const newSpace = minimumSpace * plants2;
+const formula = newSpace * 2 ** 10;
+
+console.log(formula);
+
+const formula2 = formula / PI;
+const sqrtFormula = Math.sqrt(formula2);
+
+console.log(sqrtFormula);
