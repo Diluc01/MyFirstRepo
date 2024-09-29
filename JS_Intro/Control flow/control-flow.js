@@ -7,34 +7,37 @@ const week1Results = plants * 2;
 const week2Results = week1Results * 2;
 const week3Results = week2Results * 2;
 
-if (week1Results > area * 0.8) {
-  console.log("Pruned");
-} else if (week1Results <= area * 0.8 && week1Results >= area * 0.5) {
-  console.log("Monitored");
-} else {
-  console.log("Planted");
-}
+try {
+  if (plants > area) {
+    throw new Error("There is not enough space");
+  } else {
+    if (week1Results > area * 0.8) {
+      console.log("Pruned");
+    } else if (week1Results <= area * 0.8 && week1Results >= area * 0.5) {
+      console.log("Monitored");
+    } else {
+      console.log("Planted");
+    }
 
-if (week2Results > area * 0.8) {
-  console.log("Pruned");
-} else if (week2Results <= area * 0.8 && week2Results >= area * 0.5) {
-  console.log("Monitored");
-} else {
-  console.log("Planted");
-}
+    if (week2Results > area * 0.8) {
+      console.log("Pruned");
+    } else if (week2Results <= area * 0.8 && week2Results >= area * 0.5) {
+      console.log("Monitored");
+    } else {
+      console.log("Planted");
+    }
 
-if (week3Results > area * 0.8) {
-  console.log("Pruned");
-} else if (week3Results <= area * 0.8 && week3Results >= area * 0.5) {
-  console.log("Monitored");
-} else {
-  console.log("Planted");
+    if (week3Results > area * 0.8) {
+      console.log("Pruned");
+    } else if (week3Results <= area * 0.8 && week3Results >= area * 0.5) {
+      console.log("Monitored");
+    } else {
+      console.log("Planted");
+    }
+  }
+} catch (err) {
+  console.log(err);
 }
-
-// C = PI * radius
-// C = 3.1415 * 102400 = 321,689.6
-// R = C / PI
-// R = 321,689.6 / 3.1415 * 5 **2 = 2,559,924.49
 
 const plants2 = 100;
 const newSpace = minimumSpace * plants2;
