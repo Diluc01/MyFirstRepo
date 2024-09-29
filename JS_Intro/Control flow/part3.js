@@ -1,8 +1,6 @@
-const PI = 3.1415;
-const radius = 5;
 const area = PI * radius * radius;
 const minimumSpace = 0.8;
-const plants = minimumSpace * 20;
+const plants = minimumSpace * 100;
 const week1Results = plants * 2;
 const week2Results = week1Results * 2;
 const week3Results = week2Results * 2;
