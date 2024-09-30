@@ -28,3 +28,18 @@ for (let i = n; i <= 12; i++) {
 }
 
 // third problem
+let string =
+  "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26";
+let cells = "";
+
+for (const ch of string) {
+  cells += ch;
+  if (ch === ",") {
+    continue;
+  }
+  if (ch === "\\n") {
+    break;
+  }
+}
+
+console.log(cells);
